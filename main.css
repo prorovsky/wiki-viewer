@@ -1,0 +1,50 @@
+body {
+    background: #C02425;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 16px;
+}
+
+main {
+    text-align: center;
+    width: 80%;
+    margin: auto auto;
+}
+
+p {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+input {
+    margin-top: 10px;
+}
+
+article {
+    background-color: #eee;
+}
+
+article:hover {
+    border-left: 5px solid violet;
+    border-right: 5px solid violet;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.articles {
+    width: 50%;
+    margin: auto auto;
+}
+
+.article-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.user-input {
+    padding: 5px 5px;
+    background-color: #eee;
+    width: 50%;
+    margin: 300px auto;
+}
